@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Thara Fitness</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="thara-signup">
+    <header class="thara-auth-header">
+        <div class="thara-auth-logo">
+            <img src="images/logo.jpg" alt="Thara Fitness Logo">
+            <span>THARA FITNESS</span>
+        </div>
+        <nav>
+            <a href="index.html" class="thara-back-link">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </nav>
+    </header>
+
+    <main class="thara-auth-container">
+        <div class="thara-auth-image">
+            <div class="thara-image-overlay">
+                <h3>STRONG MIND. STRONG BODY.</h3>
+                <p>Join our community and transform your life</p>
+            </div>
+            <img src="images/signup.jpg" alt="Fitness Motivation">
+        </div>
+        
+        <div class="thara-auth-form">
+            <div class="thara-form-header">
+                <h2>Start Your Journey</h2>
+                <p>Create your account to access personalized workouts</p>
+            </div>
+            
+            <form id="tharaSignupForm">
+                <div class="thara-form-group">
+                    <label for="tharaFullName">Full Name</label>
+                    <div class="thara-input-wrapper">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="tharaFullName" required>
+                    </div>
+                </div>
+                
+                <div class="thara-form-group">
+                    <label for="tharaEmail">Email Address</label>
+                    <div class="thara-input-wrapper">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="tharaEmail" required>
+                    </div>
+                </div>
+                
+                <div class="thara-form-group">
+                    <label for="tharaPassword">Password</label>
+                    <div class="thara-input-wrapper">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="tharaPassword" required>
+                        <button type="button" class="thara-password-toggle">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="thara-form-group">
+                    <label for="tharaConfirmPassword">Confirm Password</label>
+                    <div class="thara-input-wrapper">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="tharaConfirmPassword" required>
+                    </div>
+                </div>
+                
+                <button type="submit" class="thara-btn-primary">
+                    <span>Get Started</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                
+                <div class="thara-auth-divider">
+                    <span>or continue with</span>
+                </div>
+                
+                <div class="thara-social-auth">
+                    <button type="button" class="thara-social-btn google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button type="button" class="thara-social-btn facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </button>
+                </div>
+                
+                <p class="thara-auth-link">
+                    Already have an account? <a href="login.html">Sign in</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <script src="signup.js"></script>
+</body>
+</html>

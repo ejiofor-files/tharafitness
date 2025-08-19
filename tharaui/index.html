@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thara Fitness - Strong Mind. Strong Body.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <<header>
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Thara Fitness Logo">
+        </div>
+        
+        <!-- Added hamburger button -->
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#membership">
+                        <i class="fas fa-id-card"></i>
+                        <span>Membership</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#classes">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Classes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+                 <li class="mobile-only-cta"> <!-- Add this class -->
+                    <a href="#membership">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Join Now</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+        <div class="cta-button">
+            <a href="signup.html">
+                <i class="fas fa-user-plus"></i>
+                <span>Join Now</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>STRONG MIND. STRONG BODY.</h1>
+                <p>Join our community and transform your life at Thara Fitness</p>
+                <div class="hero-buttons">
+                    <a href="#membership" class="btn-primary">Get Started</a>
+                    <a href="#classes" class="btn-secondary">View Classes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section id="membership" class="membership">
+        <div class="membership-bg"></div> <!-- New background element -->
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your fitness journey</p>
+            
+            <div class="membership-grid">
+                <!-- Single Membership -->
+                <div class="membership-card">
+                    <h3>Single</h3>
+                    <div class="pricing">
+                        <div class="price-option">
+                            <span class="duration">1 Month</span>
+                            <span class="price">¥45,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">3 Months</span>
+                            <span class="price">¥120,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">6 Months</span>
+                            <span class="price">¥230,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">1 Year</span>
+                            <span class="price">¥460,000</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-primary">Join Now</a>
+                </div>
+                
+                <!-- Couple Membership -->
+                <div class="membership-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Couple/Pair</h3>
+                    <div class="pricing">
+                        <div class="price-option">
+                            <span class="duration">1 Month</span>
+                            <span class="price">¥80,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">3 Months</span>
+                            <span class="price">¥225,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">6 Months</span>
+                            <span class="price">¥450,000</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">1 Year</span>
+                            <span class="price">¥800,000</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-primary">Join Now</a>
+                </div>
+                
+                <!-- Corporate Membership -->
+                <div class="membership-card">
+                    <h3>Corporate</h3>
+                    <div class="pricing">
+                        <div class="price-option">
+                            <span class="duration">1 Month</span>
+                            <span class="price">Contact Us</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">3 Months</span>
+                            <span class="price">Contact Us</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">6 Months</span>
+                            <span class="price">Contact Us</span>
+                        </div>
+                        <div class="price-option">
+                            <span class="duration">1 Year</span>
+                            <span class="price">Contact Us</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-primary">Inquire Now</a>
+                </div>
+            </div>
+            
+            <div class="payment-info">
+                <h3>Payment Information</h3>
+                <p>All payments should be made to the account name: <strong>THARAFITNESS</strong></p>
+                <div class="bank-logos">
+                    <span>IN5000</span>
+                    <span>FCMB</span>
+                    <span>GTBank</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="workout-plan">
+  <div class="container">
+    <h2>Weekly Workout Plan</h2>
+    <p class="section-subtitle">Join our community classes and transform together</p>
+    
+    <div class="schedule-container">
+      <div class="schedule-grid">
+        <!-- Header Row -->
+        <div class="grid-header"></div>
+        <div class="grid-header">Morning</div>
+        <div class="grid-header">Evening</div>
+        
+        <!-- Monday -->
+        <div class="grid-day">Monday</div>
+        <div class="grid-session morning">
+          <div class="session-time">6:30am - 7:30am</div>
+          <div class="session-name">Metabolic Conditioning</div>
+          <div class="session-hover">High-intensity metabolic training</div>
+        </div>
+        <div class="grid-session evening">
+          <div class="session-time">5:30pm - 6:30pm</div>
+          <div class="session-name">Body Sculpt</div>
+          <div class="session-hover">Muscle toning & definition</div>
+        </div>
+        
+        <!-- Tuesday -->
+        <div class="grid-day">Tuesday</div>
+        <div class="grid-session morning">
+          <div class="session-time">6:30am - 7:30am</div>
+          <div class="session-name">Tabata</div>
+          <div class="session-hover">20s on, 10s off HIIT</div>
+        </div>
+        <div class="grid-session evening">
+          <div class="session-time">5:30pm - 6:30pm</div>
+          <div class="session-name">Insanity</div>
+          <div class="session-hover">Max-intensity cardio</div>
+        </div>
+        
+        <!-- Wednesday -->
+        <div class="grid-day">Wednesday</div>
+        <div class="grid-session morning">
+          <div class="session-time">6:30am - 7:30am</div>
+          <div class="session-name">Full Body Blast</div>
+          <div class="session-hover">Total-body power workout</div>
+        </div>
+        <div class="grid-session evening">
+          <div class="session-time">5:30pm - 6:30pm</div>
+          <div class="session-name">Active Recovery</div>
+          <div class="session-hover">Low-impact movement therapy</div>
+        </div>
+        
+        <!-- Thursday -->
+        <div class="grid-day">Thursday</div>
+        <div class="grid-session morning">
+          <div class="session-time">6:30am - 7:30am</div>
+          <div class="session-name">Active Recovery</div>
+          <div class="session-hover">Restorative movement</div>
+        </div>
+        <div class="grid-session evening">
+          <div class="session-time">5:30pm - 6:30pm</div>
+          <div class="session-name">Strength and Conditioning</div>
+          <div class="session-hover">Power and endurance building</div>
+        </div>
+        
+        <!-- Friday -->
+        <div class="grid-day">Friday</div>
+        <div class="grid-session morning">
+          <div class="session-time">6:30am - 7:30am</div>
+          <div class="session-name">Strength and Conditioning</div>
+          <div class="session-hover">Functional strength training</div>
+        </div>
+        <div class="grid-session evening">
+          <div class="session-time">5:30pm - 6:30pm</div>
+          <div class="session-name">Full Body Blast</div>
+          <div class="session-hover">High-energy finish to your week</div>
+        </div>
+        
+        <!-- Saturday -->
+        <div class="grid-day">Saturday</div>
+        <div class="grid-session weekend" colspan="2">
+          <div class="session-time">8:00am - 9:30am</div>
+          <div class="session-name">Weekend Bootcamp</div>
+          <div class="session-hover">Challenging team-based workout</div>
+        </div>
+        
+        <!-- Sunday -->
+        <div class="grid-day">Sunday</div>
+        <div class="grid-session weekend" colspan="2">
+          <div class="session-time">9:00am - 10:30am</div>
+          <div class="session-name">Community Yoga</div>
+          <div class="session-hover">All-levels mindfulness session</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+            
+         <section class="premium-packages">
+  <h2>Premium Packages</h2>
+  <div class="packages-carousel">
+    <div class="packages-track">
+      <!-- Original Packages -->
+      <div class="package-item">
+        <i class="fas fa-user-secret"></i>
+        <span>Private Classes</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-spa"></i>
+        <span>Yoga</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-boxing-glove"></i>
+        <span>Boxing/Self-defence</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-swimmer"></i>
+        <span>Aqua-aerobics</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-stairs"></i>
+        <span>Step aerobics</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-water"></i>
+        <span>Swimming</span>
+      </div>
+      
+      <!-- Duplicates for seamless looping -->
+      <div class="package-item">
+        <i class="fas fa-user-secret"></i>
+        <span>Private Classes</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-spa"></i>
+        <span>Yoga</span>
+      </div>
+      <div class="package-item">
+        <i class="fas fa-boxing-glove"></i>
+        <span>Boxing/Self-defence</span>
+      </div>
+    </div>
+  </div>
+</section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Community</h2>
+                <p>At Thara Fitness, we believe in more than just physical transformation. We're a community dedicated to building strong minds and strong bodies together.</p>
+                <p>Our philosophy is rooted in the idea that fitness is a journey we take together. Whether you're taking your first steps or pushing your limits, you'll find support, motivation, and friendship at Thara Fitness.</p>
+                <div class="community-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Classes Weekly</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Certified Trainers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <!-- This would be an image of the gym or community -->
+                <div class="image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+    <section class="trainers-section">
+  <div class="container">
+    <h2>Meet Our Expert Trainers</h2>
+    <p class="section-subtitle">The passionate professionals behind your transformation</p>
+    
+    <div class="trainers-grid">
+      <!-- Trainer 1 -->
+      <div class="trainer-card">
+        <div class="trainer-image">
+          <img src="images/trainer1.jpg" alt="Trainer James Rodriguez">
+          <div class="trainer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <h3>James Obi</h3>
+          <span class="specialty">Strength & Conditioning</span>
+          <p>10+ years experience in athletic performance training</p>
+          <ul class="trainer-schedule">
+            <li>Mon/Wed/Fri: 6am-2pm</li>
+            <li>Sat: 8am-12pm</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Trainer 2 -->
+      <div class="trainer-card">
+        <div class="trainer-image">
+          <img src="images/trainer2.jpg" alt="Trainer Sarah Chen">
+          <div class="trainer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <h3>Sarah Onome</h3>
+          <span class="specialty">HIIT & Functional Training</span>
+          <p>National champion in functional fitness</p>
+          <ul class="trainer-schedule">
+            <li>Tue/Thu: 5am-1pm</li>
+            <li>Sat: 7am-11am</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Trainer 3 -->
+      <div class="trainer-card">
+        <div class="trainer-image">
+          <img src="images/trainer3.jpg" alt="Trainer Marcus Johnson">
+          <div class="trainer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="trainer-info">
+          <h3>Marcus Okoro</h3>
+          <span class="specialty">Boxing & MMA</span>
+          <p>Former professional boxer with 5 championship titles</p>
+          <ul class="trainer-schedule">
+            <li>Mon-Fri: 3pm-9pm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cta-container">
+      <a href="#contact" class="btn-primary">Book a Session</a>
+      <a href="#classes" class="btn-secondary">View All Trainers</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Members Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Thara Fitness changed my life. The community support kept me motivated when I wanted to quit."</p>
+                    <div class="member-info">
+                        <span class="member-name">Aisha B.</span>
+                        <span class="member-duration">Member for 2 years</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The trainers genuinely care about your progress. It's more than a gym, it's a family."</p>
+                    <div class="member-info">
+                        <span class="member-name">Tunde K.</span>
+                        <span class="member-duration">Member for 1 year</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"I've tried many gyms, but Thara's atmosphere is different. You feel welcomed from day one."</p>
+                    <div class="member-info">
+                        <span class="member-name">Chioma L.</span>
+                        <span class="member-duration">Member for 6 months</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+  <section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Visit Our Gym</h2>
+      <div class="info-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h3>Location</h3>
+          <p>123 Fitness Avenue<br>Sports District, City 10001</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-phone-alt"></i>
+        <div>
+          <h3>Phone</h3>
+          <p>+1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>Email</h3>
+          <p>info@tharafitness.com</p>
+        </div>
+      </div>
+      <div class="social-links">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/tharafitnesss.ng?utm_source=ig_web_button_share_sheet&igsh=MTlocWNnNTAwa3pibg=="><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@tharafitness?_t=ZS-8z0B38B5FT6&_r=1"><i class="fab fa-tiktok"></i></a>
+          <a href="https://x.com/tharafitness?s=21"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="contact-form">
+      <h2>Get In Touch</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Your Phone">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" required></textarea>
+          <i class="fas fa-comment"></i>
+        </div>
+        <button type="submit" class="submit-btn">
+          <span>Send Message</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Embedded Map -->
+  <div class="gym-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215209132183!2d-73.987844924525!3d40.74844097138985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMTQuMiJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+            allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+    <!-- Footer -->
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <img src="images/logoblue.jpg" alt="Thara Fitness Logo" class="footer-logo">
+      <p class="footer-tagline">STRONG MIND. STRONG BODY.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/tharafitnesss.ng?utm_source=ig_web_button_share_sheet&igsh=MTlocWNnNTAwa3pibg=="><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/tharafitness?s=21"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.tiktok.com/@tharafitness?_t=ZS-8z0B38B5FT6&_r=1"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    
+    <div class="footer-links">
+      <div class="links-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="links-column">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Trainers</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      
+      <div class="links-column">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Avenue, City 10001</p>
+        <p><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> info@tharafitness.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2025 Thara Fitness. All rights reserved.</p>
+      <p>Powered by &copy;<span class="copyright">Pixelforge</span></p>
+      <div class="payment-methods">
+        <span>IN5000</span>
+        <span>FCMB</span>
+        <span>GTBank</span>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
